@@ -1,0 +1,61 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
+
+.navlogo{max-height: 200%;
+}
+body{font-family: "freesans";
+	font-size: 16px;
+	text-align: center;}
+
+.banner{background-image: url("images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    height: 500px
+   
+ }
+ header{height: 100%}
+
+h1, h1 p {font-size: 3vh}
+
+body{font-family: "freesans";
+	font-size: 16px;
+	text-align: center;
+}
+			
+.contacto{
+	text-align: left;
+	padding: 20px
+}
+h2, h4{
+	font-weight: bold;
+
+}
+.carousel-caption{
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	font-size: 2vh;
+
+}
+.thumbnail{padding: 10px}
+footer{background-color: black;
+	color: white;
+	padding: 20px
+}
